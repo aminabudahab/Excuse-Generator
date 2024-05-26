@@ -13,6 +13,7 @@ const generateExcuse = () => {
     const whenIndex = Math.floor(Math.random() * when.length);
     
     const excuse = `${who[whoIndex]} ${action[actionIndex]} ${what[whatIndex]} ${when[whenIndex]}`;
+    console.log("excuse:");
     console.log(excuse);
     return excuse
 };
